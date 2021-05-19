@@ -1,12 +1,12 @@
 # 2D-Cel-Toon-Shader-v2-Plus
 A Godot shader that will restrict light values giving a type of cel or toon shaded look, as well as give you options to fake light depth.
 
-This is the advanced version of the shader that has extra features. Those features consist of:
-- Basic Cel Shader
-- Rim Light
-- Fake Light Depth with light fade
+[This is the advanced version of the shader that has extra features](https://github.com/mightymochi/2D-Cel-Toon-Shader-v2-Plus/blob/main/shaders/cel_shader_plus_all.shader). Those features consist of:
+- [Basic Cel Shader](https://github.com/mightymochi/2D-Cel-Toon-Shader-v2-Plus/blob/main/shaders/cel_shader_basic.shader)
+- [Rim Light](https://github.com/mightymochi/2D-Cel-Toon-Shader-v2-Plus/blob/main/shaders/rim_light.shader)
+- [Fake Light Depth with light fade](https://github.com/mightymochi/2D-Cel-Toon-Shader-v2-Plus/blob/main/shaders/2D_Light_Z-Depth.shader)
 - Fake Spotlight effect connected to depth
-- Modulate before light
+- [Modulate before light](https://github.com/mightymochi/2D-Cel-Toon-Shader-v2-Plus/blob/main/shaders/modulate_before_light.shader)
  
 This shader will restrict light values giving a type of cel or toon shaded look, as well as give you options to fake light depth. It requires sprites to have normal maps. This shader will NOT create the drawn lines, but you could combine with a border shader to give an outline around edges of your sprites. To get extra glow-y light effects, you need to use the WorldEnvironment node. 
 
