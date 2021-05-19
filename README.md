@@ -57,6 +57,11 @@ This shader will restrict light values giving a type of cel or toon shaded look,
 
 - Before Light Modulate – Alters the color of the object before the light pass, preserving luminosity. The standard Modulate setting will change the color of the object and the light after the light has been applied.
 
+## Modifying Scale and Z-Index with Height Example
+
+You can modify the shader parameters from gdscript to accomplish all sorts of effects. For my test project I wanted to modify the scale and z-index of objects based on their Obj Height or Light2D range_height. I also wanted to be able to view it in real time as I set up the scene so I coded it to be a tool. The code linked below taps the Min and Max Scale variables and compares them to the maximum light range of -2048 to 2048 to calculate the relative scale. If you want to have more control over the scale you can apply this code to a parent. Make sure you modify it to suit your needs, may be error prone.
+
+[scale_and_z-depth.gd](https://github.com/mightymochi/2D-Cel-Toon-Shader-v2-Plus/blob/main/extra_scripts/scale_and_z-depth.gd)
 
 ## Thanks
 
