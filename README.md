@@ -1,7 +1,7 @@
 # 2D-Cel-Toon-Shader-v2-Plus
 A Godot shader that will restrict light values giving a type of cel or toon shaded look, as well as give you options to fake light depth.
 
-[Youtube Video of settings and usage](https://youtu.be/PeRiM9EMqRE)
+[![Youtube Video of settings and usage](https://raw.githubusercontent.com/mightymochi/2D-Cel-Toon-Shader-v2-Plus/main/thumbnail_v2b.jpg)](https://youtu.be/PeRiM9EMqRE)
 
 [cel_shader_plus_all.shader is the advanced version of the shader that has extra features combined](https://github.com/mightymochi/2D-Cel-Toon-Shader-v2-Plus/blob/main/shaders/cel_shader_plus_all.shader). Those features consist of:
 - [Basic Cel Shader](https://github.com/mightymochi/2D-Cel-Toon-Shader-v2-Plus/blob/main/shaders/cel_shader_basic.shader)
